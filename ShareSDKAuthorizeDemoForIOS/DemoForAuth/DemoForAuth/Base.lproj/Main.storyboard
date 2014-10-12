@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d5E-3T-qcg">
+                                <rect key="frame" x="16" y="43" width="60" height="30"/>
+                                <state key="normal" title="新浪微博">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithSinaWeibo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kSF-Cz-Wg0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rsj-mc-UCc">
+                                <rect key="frame" x="97" y="43" width="60" height="30"/>
+                                <state key="normal" title="腾讯微博">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithTencentWeibo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IWA-P6-AG6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1P7-vO-6VB">
+                                <rect key="frame" x="184" y="43" width="54" height="30"/>
+                                <state key="normal" title="QQ空间">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithQQSpce:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lYu-Wm-ljX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Oz3-vp-HaJ">
+                                <rect key="frame" x="265" y="43" width="30" height="30"/>
+                                <state key="normal" title="微信">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithWeChat:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cdq-KB-dmE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iYc-vy-lsB">
+                                <rect key="frame" x="16" y="90" width="60" height="30"/>
+                                <state key="normal" title="搜狐微博">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithSouhuWeibo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DZ4-5d-bSl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8bN-7r-DmK">
+                                <rect key="frame" x="97" y="90" width="60" height="30"/>
+                                <state key="normal" title="网易微博">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWith163Weibo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pzk-if-45P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pl8-1e-mK6">
+                                <rect key="frame" x="20" y="190" width="30" height="30"/>
+                                <state key="normal" title="豆瓣">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithDouBan:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Yl-2B-QJK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KeM-Kj-zgJ">
+                                <rect key="frame" x="184" y="90" width="45" height="30"/>
+                                <state key="normal" title="人人网">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithRenRen:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="21f-aS-3ev"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lKW-Oa-8nI">
+                                <rect key="frame" x="235" y="139" width="60" height="30"/>
+                                <state key="normal" title="印象笔记">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithYinXiang:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VnY-pB-VSA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fan-wJ-UHS">
+                                <rect key="frame" x="129" y="139" width="75" height="30"/>
+                                <state key="normal" title="有道云笔记">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithYouDao:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="48G-95-bfe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QsQ-yc-wmz">
+                                <rect key="frame" x="15" y="139" width="75" height="30"/>
+                                <state key="normal" title="搜狐随身看">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithSouhuKan:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XYu-Hz-d4u"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国内平台授权登陆" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QcL-sl-AaK">
+                                <rect key="frame" x="15" y="14" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国外平台授权登陆" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kpb-1z-9MZ">
+                                <rect key="frame" x="20" y="253" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Rr-Kz-29x">
+                                <rect key="frame" x="258" y="90" width="45" height="30"/>
+                                <state key="normal" title="开心网">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithKaixin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ysk-Uv-s2H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mCX-qy-XYa">
+                                <rect key="frame" x="97" y="190" width="30" height="30"/>
+                                <state key="normal" title="明道">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithMingDao:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PgA-1j-uMD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ikG-Qc-WlS">
+                                <rect key="frame" x="20" y="300" width="70" height="30"/>
+                                <state key="normal" title="FaceBook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithFacebook:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="591-vD-jC1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zrv-b8-hIg">
+                                <rect key="frame" x="227" y="300" width="46" height="30"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MTq-Zd-VNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sBw-Ox-Y8t">
+                                <rect key="frame" x="124" y="356" width="59" height="30"/>
+                                <state key="normal" title="LinkedIn">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithLinkedIn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZfU-eZ-4er"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XVb-Qn-lyJ">
+                                <rect key="frame" x="20" y="356" width="73" height="30"/>
+                                <state key="normal" title="Instapaper">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithInstapaper:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h6m-lw-8d3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FLI-Nv-VAw">
+                                <rect key="frame" x="129" y="300" width="48" height="30"/>
+                                <state key="normal" title="Pocket">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithPocket:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i8U-JW-wJE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZFm-iQ-ONT">
+                                <rect key="frame" x="226" y="356" width="47" height="30"/>
+                                <state key="normal" title="Tumblr">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithTumblr:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YyC-0t-9Vi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vjN-jt-LwF">
+                                <rect key="frame" x="226" y="411" width="38" height="30"/>
+                                <state key="normal" title="Flickr">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithFlickr:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4mM-6K-UnK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HOu-CM-6z9">
+                                <rect key="frame" x="20" y="411" width="71" height="30"/>
+                                <state key="normal" title="VKontakte">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithVKontakte:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bWo-Mg-tgH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bB5-cx-fCK">
+                                <rect key="frame" x="123" y="411" width="61" height="30"/>
+                                <state key="normal" title="DropBox">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AuthWithDropBox:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="J6I-oU-qHV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fxk-Oa-elt">
+                                <rect key="frame" x="20" y="479" width="135" height="30"/>
+                                <state key="normal" title="取消所有平台的授权">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelAllAuth:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="w6l-2X-EHJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
